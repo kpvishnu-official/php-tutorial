@@ -1,4 +1,4 @@
-<?php
+ <?php
 $isPost = $_SERVER["REQUEST_METHOD"] === "POST";
 if ($isPost) {
     $name = $_POST['student_name'];
@@ -19,7 +19,7 @@ if ($isPost) {
 <body>
     <h2>Mark Calculator</h2>
     <div>
-        <form method="post">
+        <form method="get">
             <label>Student Name <input type="text" name='student_name'><label>
             <label>Mark <input type="number" name='mark'></label>
             <input type='submit'>

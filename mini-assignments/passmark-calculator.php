@@ -1,8 +1,17 @@
 <?php
-$mark = 30;
-$totalMark = 100;
+$mark = 100;
 
-if ($mark === $totalMark) {
+$isSameMark = $mark === TOTAL_MARK;
+print($isSameMark);
+$isSameMark = $mark == TOTAL_MARK;
+print($isSameMark);
+$isSameMark = $mark = TOTAL_MARK;
+print($isSameMark);
+
+
+
+
+if ($mark === TOTAL_MARK) {
     print_r('Full Mark');
 } elseif ($mark > 40) {
     print_r('Pass');
