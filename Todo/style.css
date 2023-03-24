@@ -1,0 +1,37 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+.heading {
+    font-weight: bold;
+    background-color: aqua;
+}
+/* 
+ * 3 type CSS Selectors 
+ * Class Name
+ * Tag Name 
+ * Id Name 
+ */
+.p10 {
+    padding: 10px;
+}
+body {
+    text-align: center;
+}
+#todo-form {
+    background-color: aquamarine;
+}
+
+.todo-list-table {
+    padding: 10px;
+    width: 100%;
+    min-height: 350px;
+    background-color: blanchedalmond;
+}
+
+table {
+    margin-left: 40px;
+    border-collapse: collapse;
+    width: 85%;
+}
